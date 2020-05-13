@@ -42,7 +42,7 @@ public class printedBook extends Book //inherit from the class Book.
 	public void print() //Overriding the superclass (Book class) method
 	{
 		System.out.println("Features of Printed Book");
-		System.out.println("------------------------------------------");
+		System.out.println("-----------------------------------------------------------");
 		super.print(); //call method print() in superclass (Book class)
 	}
 
