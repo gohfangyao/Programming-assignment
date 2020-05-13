@@ -20,7 +20,7 @@ public class MainBook
    b2.NeedPower();
    b2.ReadInDark();
    b2.Feature();
-   System.out.println("------------------------------------------");
+   System.out.println("-----------------------------------------------------------");
    System.out.println("<Additional properties>");
    b2.Dictionary();	
    b2.Compact();
@@ -34,7 +34,7 @@ public class MainBook
    b3.NeedPower();
    b3.ReadInDark();
    b3.Productive();
-   System.out.println("------------------------------------------"); 
+   System.out.println("-----------------------------------------------------------"); 
    System.out.println("<Additional properties>"); 
    b3.Feature();
    System.out.println();	
