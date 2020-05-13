@@ -1,5 +1,7 @@
 public class audioBook extends Book //inherit from the class Book.
 {
+
+	
 	public audioBook(String title, double price) {
 		super(title, price);
 		
@@ -9,11 +11,13 @@ public class audioBook extends Book //inherit from the class Book.
 	{
 		System.out.println("Title : <<Exploiting Poker Tells>>");
 	}
+	
 
 	public void getPrice()
 	{
 		System.out.println("Price : RM200");	
 	}
+	
 	
 	public static void Content()
 	{
@@ -52,10 +56,11 @@ public class audioBook extends Book //inherit from the class Book.
 	}	
 	
 	
+	
 	public void print() //Overriding the superclass (Book class) method
 	{
 		System.out.println("Features of Audio Book");
-		System.out.println("------------------------------------------");
+		 System.out.println("-----------------------------------------------------------");
 		super.print(); //call method print() in superclass (Book class)
 	}
 	
